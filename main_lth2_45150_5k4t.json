@@ -1,0 +1,93 @@
+95 + 69,30,84,47,51,94,11,61,71,19,48,80,61
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana * true
+const getRandomElement = array => array[getRandomIndex(array)];
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+81,51,5,17,30,1,37,56,99,61,58,89,76,16,71,47,62,65,49,38,27,19,94,62,6,89,0,28,74,67,58,21,52,90,75,77,21,32,0,30,96,48,48,5,62,30,7,36,64,18,7,62,43,22,84,71,96,48,17,23,90,32,36,43,66,33,58,98,43,45 + 27,52,80,51,96,96,53,54,13,13,79,11,97,33,44,97,97,30,40,99,81,4,28,68,14,69,78,53,92,79,75,98,6,52,65,77,89,19,54,83,80,73,32,66,70,86,87,18,95,55,36,93,73,63,7,37,87,28,30,10
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+26 - true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseString = str => str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false * banana
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+// This is a comment
+grape
+
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+43 - 95
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+95 - 76
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+2,98,20,67,1,16,78,65,52,9,12,86,30,33,49,55,83,82,66,38,7,98,25,72,84,32,6,95,83,54,39,59,83,75,98,2,97,53,66,17,50,33,75,6,92,88 - 92
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const randomNumber = getRandomNumber();
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+33,44,7,36,55,82,33,88,33,6,57,44,3,33,70,24,8,94,75,61,41,52,95,54,58,92,77,9,50,72,18,91,74 + 94,35,61,94,30,14,0,19,68,47,55,35,25,78,48,87,26,13,89,51,12,39,15,38,73,61,29,89,31,35,66,60,6,77,28,50,14,34,15,56,36,33,72,50,41,5,63,2,87,82,93,82,14,17,13,18,98,68,48,84,76,36,71,41,50,48,74,68,82,12,7,86,48,62,8,91,54,67,58,7,68
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+93 + 41
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+83 - 76
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi + true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+orange / false
+const getUniqueValues = array => [...new Set(array)];
+banana
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+banana / banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+30,91,22,77,19,47,0,80,71,82,45,65,83,29,94,55,32,85,84,79,40,1,6,31,7,25,23,97,23,58,88,16,92,33,89,59,42,25,37,52,88,57,58,95,92,85,80,32,60,30,70,95,92,57,49,43,97,52,57,25,6,23,25,16,98,27,26,66,76 - 47,10,8,56,42,41,18,61,51,11,0,74,45,56,23,26,16,23,59,41,33,28,2,64,54,16,64
+const variableName = getRandomNumber();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const randomNumber = getRandomNumber();
+
+false + 29,81,34,62,94,97,19,66,17,87,21,13,88,55,59,78,11,22,96,84,24,54,49,69,15,3,34,75,47,84,53,84,16,39,95,91,62,47,64,72,12,89,22
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+kiwi
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+
+const variableName = getRandomNumber();
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomElement = array => array[getRandomIndex(array)];
