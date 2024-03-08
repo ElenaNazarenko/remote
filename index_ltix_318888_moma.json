@@ -1,0 +1,20 @@
+kiwi - banana
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+class MyClass { constructor() { this.property = getRandomString(); } }
+banana
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+54,30,69,20,20,87,44,30,47,72,90,70,52,40,12,56,70,85,25,90,6,85,81,18,1,64,31,83,67,83,6,19,17,86,28,94,95,12,36,60,62,36,24,11,6,7,74,86,75,80,37,82,91,34,95,80,49,37,38,34,99,47,10,51,58,50,88,91,28,70,18,73,34,52,49,13,11 / grape
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+82 / 23,36,98,94,94,86,78,34,3,36,67,97,53,0,11,54,66,19,67,28,25,36,98,2,80,9,86,14,48,39,88,98,59,44,22,12,31,20,52,23,13,35,14,45,35,49,51,15,70,61
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+false / orange
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange / false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
