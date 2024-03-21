@@ -1,0 +1,81 @@
+25 * 78
+const getRandomSubset = (array, size) => array.slice(0, size);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+48,30,52,70,21,21,77,35,79,21,65,2,90,16,50,99,28,86,94,4,32,71,84,71,45,60,31,78,4,47,73,82,6,88,51,86,36,50,12,41,73,86,62,75,99,37,42,19,98,18,23,70,79,24,28,53,33,34,37,54,82,45,11,42,14,96,19,94 / kiwi
+const multiply = (a, b) => a * b;
+kiwi * 14
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false + true
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+false + 77,28
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+45 + 63
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+31,20,6,2,89,7,92,81,90,7,76,75,52,7,12,72,55,91,25,21,37,65,13,3,64,76,96,39,24,38,54,75,20,9,24,92,48,72,88,79,47,32,88,78,45,45,54,65,43,4,4,42,31,26,59,77,11,26,23,90,44,31,45,0,20,8,27,15,35,74,34,3,81,94,33,98,41,59,25,95,89,65,47,85,78,26,34,51,34,37,45,74,90 / true
+const getRandomSubset = (array, size) => array.slice(0, size);
+kiwi
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+function addNumbers(a, b) { return a + b; }
+function addNumbers(a, b) { return a + b; }
+const isEven = num => num % 2 === 0;
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+true / 0,4,66,44,70,42,41,40,16,32,9,60,30,28,91,77,21,15,5,48,59,28,3,59,87,0,37,21,44,41,54,15,35,97,9,83,55,88,69,89,77,15,49,54,34,80,15,55,11
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+apple
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findLargestNumber = numbers => Math.max(...numbers);
+
+banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sum = (a, b) => a + b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+banana
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+banana
+
+function addNumbers(a, b) { return a + b; }
+
+false / 43
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+apple
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+banana
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+71 - grape
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+23 / true
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
