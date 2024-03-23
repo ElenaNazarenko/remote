@@ -1,0 +1,19 @@
+91 - 18
+const squareRoot = num => Math.sqrt(num);
+
+83 + 97,27,99,22,64,87,39,33,86,25,52,84,25,60,57,63,39,33,33,77,6,65,59,59,7,33,26,84,65,20,85,1,1,30,69,31,73,43,91,86,91,10,57,49,88,19,11,23,62,46,40,13,27,63,79,73,59
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+77 * 32
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+32 + true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
