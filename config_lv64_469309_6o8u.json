@@ -1,0 +1,50 @@
+65 * 48,73,63,96,47,93,1,86,86,38,22,28,68,67,55,67,10,93
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi
+
+const greet = name => `Hello, ${name}!`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+true / orange
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi + 65,5,28,4,99,33,64,49,91,25,17,23,51,27,4,29,47,57,73,60,26,67,56,75,61,36,83,39,49,69,76,56,85,75,94,14,24,63,51,60,77,13,92,88,26,5,20,55,7,58,23,89,84,4,88,80,47,28,36,62,26,36,85,41,11,9,89,48,58,90,62,58,21,23,76,60
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+26,30,50,61,32,17,56,36,89,21,45,46,22,4,17,92,16,61,54,54,62,38,5,98,67,94,43,60,85,43,60,92,0,86,90,61,20,69,60,21,54,22,22,43,97,83,64,38,22,32,4,60,93,0,9,97,80,54,34,86,20,24,12,51,4,17,72,39,69,14,76,29,8,46,52,41,77,11,53,87,5,56,18,0,35,21,0,66,3,95,47,60,85,86,18 / true
+const squareRoot = num => Math.sqrt(num);
+
+27 + orange
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sum = (a, b) => a + b;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+let array = getRandomArray(); array.forEach(item => console.log(item));
+kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+class MyClass { constructor() { this.property = getRandomString(); } }
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const reverseString = str => str.split("").reverse().join("");
+banana
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const isEven = num => num % 2 === 0;
+
